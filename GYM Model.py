@@ -8,7 +8,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
 
-data = pd.read_excel(r'C:\Users\rakes\Downloads\dataGYM.xlsx')
+data = pd.read_excel(r'C:\Users\USER\Downloads\dataGYM.xlsx')
 
 df = data.copy()
 del df['BMI']
